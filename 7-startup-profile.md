@@ -63,7 +63,39 @@ El ecosistema se divide estratégicamente en dos fases para conectar a todos los
           #text(size: 9pt, style: "italic", fill: rgb("#64748b"))[Estudiante de Ingeniería de Software]
           #v(0.3em)
           #text(size: 10pt)[
-            Estudiante de Ingeniería de Software centrado en el diseño, desarrollo y arquitectura de software...
+            Estudiante de Ingeniería de Software centrado en el diseño, desarrollo y arquitectura de soluciones tecnológicas escalables.
+          ]
+        ]
+      )
+    ]
+  ),
+
+  // 2. Granda Ibarra, Luis Daniel
+  rect(
+    width: 100%,
+    fill: rgb("#f8fafc"),
+    stroke: 0.6pt + rgb("#cbd5e1"),
+    radius: 6pt,
+    inset: 12pt,
+    [
+      #grid(
+        columns: (60pt, 1fr),
+        gutter: 12pt,
+        align: (center + horizon, left + top),
+        [
+          #circle(radius: 24pt, fill: rgb("#e0e7ff"), stroke: 1.5pt + rgb("#1e3a8a"))[
+            #align(center + horizon)[#text(size: 12pt, weight: "bold", fill: rgb("#1e3a8a"))[LG]]
+          ]
+        ],
+        [
+          #text(size: 12pt, weight: "bold", fill: rgb("#1e3a8a"))[Granda Ibarra, Luis Daniel]
+          #h(1fr)
+          #text(size: 9.5pt, fill: rgb("#b91c1c"), weight: "bold")[uXXXXXXXXX]
+          #v(-4pt)
+          #text(size: 9pt, style: "italic", fill: rgb("#64748b"))[Estudiante de Ingeniería de Software -- Product Owner & Lean UX Specialist]
+          #v(0.3em)
+          #text(size: 10pt)[
+            Estudiante de Ingeniería de Software de la Universidad Peruana de Ciencias Aplicadas (UPC). Especializado en el análisis de procesos de negocio, facilitación de metodologías Lean UX, diseño funcional de la solución y definición estratégica de segmentos objetivo.
           ]
         ]
       )
