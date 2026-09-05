@@ -4,8 +4,6 @@
 
 En esta sección se identifican, analizan y comparan las principales soluciones existentes en el mercado frente a nuestra propuesta de valor **DriveOS**. Este estudio comparativo permite evaluar las fortalezas, debilidades y modelos operativos de los competidores actuales, con el objetivo de identificar oportunidades estratégicas y ventajas competitivas que permitan resolver eficientemente las necesidades de nuestros segmentos objetivo.
 
-### 2.1.1. Análisis Competitivo
-
 ```{=typst}
 #set page(
   paper: "a4",
@@ -15,6 +13,8 @@ En esta sección se identifican, analizan y comparan las principales soluciones 
 
 #set text(size: 8.5pt)
 #set par(leading: 0.5em, spacing: 0.8em)
+
+=== 2.1.1. Análisis Competitivo
 
 #v(0.5em)
 #table(
