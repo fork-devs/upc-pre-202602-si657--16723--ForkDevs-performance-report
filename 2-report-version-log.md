@@ -2,7 +2,8 @@
 
 | Versión | Fecha | Autor | Descripción de modificación |
 | --- | --- | --- | --- |
-| 1.0 | 04/09/2026 | ForkDevs | Estructura inicial del informe de Trabajo Final. |
+| 0.1.0 | 04/09/2026 | Granda Ibarra, Luis Daniel | Elaboración de la estructura inicial del informe: definición de la startup (Startup Profile), proceso Lean UX, perfil de la solución (Solution Profile) y caracterización de los segmentos objetivo. |
+| 0.2.0 | 05/09/2026 | Machacca Soto, Aldo Jeanfranco | Elaboración de la sección 2.1 Competidores (Análisis Competitivo en formato panorámico y matriz de Estrategias y Tácticas frente a Competidores para el ecosistema DriveOS). |
 
 ```{=typst}
 #pagebreak()

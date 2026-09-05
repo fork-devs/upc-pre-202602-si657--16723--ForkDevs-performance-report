@@ -30,7 +30,7 @@
       #text(weight: "bold", fill: rgb("#1e3a8a"))[Startup:] ForkDevs
     ],
     [
-      #text(weight: "bold", fill: rgb("#1e3a8a"))[Producto:] [Nombre del Producto] \
+      #text(weight: "bold", fill: rgb("#1e3a8a"))[Producto:] DriveOS \
       #text(weight: "bold", fill: rgb("#1e3a8a"))[Sección:] 16723
     ]
   )
@@ -44,7 +44,7 @@
     align: (center, left),
     table.header([Código], [Apellidos y Nombres]),
     [u202419485], [Machacca Soto, Aldo Jeanfranco],
-    [uXXXXXXXXX], [Integrante 2],
+    [uXXXXXXXXX], [Granda Ibarra, Luis Daniel],
     [uXXXXXXXXX], [Integrante 3],
     [uXXXXXXXXX], [Integrante 4],
     [uXXXXXXXXX], [Integrante 5],
