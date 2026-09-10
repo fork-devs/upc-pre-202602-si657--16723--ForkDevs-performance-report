@@ -31,14 +31,18 @@ El ecosistema se divide estratégicamente en dos fases para conectar a todos los
 
 ### 1.1.2. Perfiles de integrantes del equipo
 
+![Aldo Jeanfranco Machacca Soto](../assets/imagen-aldo-machacca-soto.png)
+
 #### **Machacca Soto, Aldo Jeanfranco** (`u202419485`)
 *Estudiante de Ingeniería de Software*
 
-Estudiante de Ingeniería de Software centrado en el diseño, desarrollo y arquitectura de soluciones tecnológicas escalables.
+Soy Aldo Jeanfranco Machacca Soto, actualmente estoy cursando la carrera de Ingeniería de Software, disciplina centrada en el diseño, desarrollo y mantenimiento de soluciones tecnológicas eficientes, escalables y de calidad. En cuanto a mi perfil técnico, me destaco principalmente en el ámbito del desarrollo backend, contando con sólida experiencia en la creación y arquitectura de APIs. Mi stack tecnológico abarca lenguajes como Python, C++, JavaScript y TypeScript, además de frameworks y bibliotecas como React y Next.js para el desarrollo frontend. Tengo experiencia en la gestión de bases de datos optimizadas para soportar grandes volúmenes de información, así como en procesos de despliegue (deploy) para llevar proyectos a producción. Como habilidad diferenciadora, cuento con experiencia práctica integrando agentes de inteligencia artificial (como OpenCode) en los flujos de trabajo. En un equipo, puedo aportar una visión integral del ciclo de vida del software, capaz de conectar eficientemente la lógica del servidor, la interfaz de usuario y la infraestructura, garantizando soluciones robustas y de alto rendimiento.
 
 ---
 
+![Luis Daniel Granda Ibarra](../assets/imagen-luis-daniel-granda-ibarra.jpg)
+
 #### **Granda Ibarra, Luis Daniel** (`uXXXXXXXXX`)
-*Estudiante de Ingeniería de Software -- Product Owner & Lean UX Specialist*
+*Estudiante de Ingeniería de Software*
 
 Estudiante de Ingeniería de Software de la Universidad Peruana de Ciencias Aplicadas (UPC). Especializado en el análisis de procesos de negocio, facilitación de metodologías Lean UX, diseño funcional de la solución y definición estratégica de segmentos objetivo.
