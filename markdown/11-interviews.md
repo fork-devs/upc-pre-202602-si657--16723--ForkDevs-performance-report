@@ -75,7 +75,7 @@ En esta sección se detalla el diseño metodológico de las guías de entrevista
 
 ##### Bloque 3: Trazabilidad, Evidencia y Disputas con Clientes
 7. Al recibir un vehículo, ¿cómo registra el estado estético inicial (rayones, golpes, pertenencias en el auto)? ¿Se utiliza registro fotográfico o formatos en papel?
-8. ¿Alguna vez ha tenido reclamos injustificados por parte de clientes acusándolo de haber dañado una pieza o de no haber realizado un reemplazo? ¿Cómo se defendedió frente a esa situación?
+8. ¿Alguna vez ha tenido reclamos injustificados por parte de clientes acusándolo de haber dañado una pieza o de no haber realizado un reemplazo? ¿Cómo se defendió frente a esa situación?
 9. ¿Consideraría útil contar con una aplicación móvil que permita tomar fotos inmutables del estado del auto y subirlas directamente a la orden de trabajo digital en la nube?
 
 ##### Bloque 4: Conectividad y Condiciones del Entorno de Trabajo
@@ -89,5 +89,32 @@ En esta sección se detalla el diseño metodológico de las guías de entrevista
 15. ¿Cómo evaluaría una herramienta que mida sus tiempos reales de trabajo y le permita justificar de forma automática su productividad para bonificaciones meritocráticas?
 
 ### 2.2.2. Registro de Entrevistas
+
+En esta sección se documenta el registro completo de las entrevistas realizadas a los representantes de nuestros segmentos objetivo, incluyendo la ficha técnica, la evidencia fotográfica y la estructuración ejecutiva del testimonio por ejes de análisis.
+
+#### 2.2.2.1. Entrevista 1 — Kevin Ramírez Torres (Segmento 2: Personal Operativo del Taller)
+
+| Evidencia Audiovisual | Ficha Técnica de Registro |
+| :---: | :--- |
+| ![Entrevista Kevin Ramírez Torres](../assets/interviews/kevin-ramirez-torres.png)<br>*Entrevista 1: Kevin Ramírez Torres* | **Nombres y Apellidos:** Kevin Ramírez Torres<br>**Segmento Objetivo:** Segmento 2: Personal Operativo del Taller (Técnicos Mecánicos)<br>**Edad / Ubicación:** 28 años \| Jesús María, Lima<br>**Cargo / Puesto:** Técnico en Mecatrónica Automotriz<br>**Formación:** Egresado de SENATI<br>**Experiencia:** 7 años en taller multimarca<br>**Entrevistador:** Barrenechea Bustamante, Rafael Andre<br>**Fecha:** 07/09/2026<br>**Tiempo / Video:** 00:00:05 – 00:11:53 ([Ver Grabación en YouTube](https://youtu.be/EuM09QvunOU)) |
+
+**Resumen de la Entrevista**
+
+Kevin Ramírez Torres (28 años), técnico en Mecatrónica Automotriz egresado de SENATI con 7 años de experiencia en un taller independiente multimarca, compartió información clave sobre la operatividad diaria en bahía. Destacó que utiliza diariamente un smartphone Android para comunicarse y tomar fotos, pero enfatizó que la manipulación del teléfono con guantes o manos con grasa dificulta la escritura extensa; por ello, una aplicación móvil para el técnico debe priorizar botones grandes, alto contraste y muy pocos toques.
+
+Respecto al diagnóstico vehicular, inicia con la recepción del problema reportado, inspección visual y conexión de escáner OBD-II multimarca. Resaltó que los códigos DTC y parámetros en vivo son herramientas de orientación fundamentales, pero nunca deben sustituir el criterio profesional del técnico. La ingesta automática de códigos hacia la orden de trabajo reduciría tareas repetitivas, siempre que el mecánico conserve la responsabilidad final de confirmación.
+
+En relación a la trazabilidad, señaló que actualmente las fotos de recepción quedan en la galería del teléfono o en WhatsApp sin asociarse formalmente a la orden de servicio. Validó la necesidad de contar con un registro fotográfico inmutable al momento del ingreso para blindar al taller ante reclamos por daños preexistentes.
+
+Sobre conectividad, confirmó que las zonas cerradas o fosos del taller tienen cobertura inestable de Wi-Fi y datos. Ante una pérdida de señal, el técnico regresaría al papel si la app se bloquea, por lo que considera indispensable una arquitectura **Offline-First**. En cuanto a la gestión del tiempo, valoró positivamente el cronometraje de mano de obra por tarea siempre que sea transparente y respalde bonos de productividad, evitando que se perciba como vigilancia.
+
+**Conclusiones Clave de la Entrevista**
+
+| Aspecto Clave | Lección Aprendida para la Arquitectura de DriveOS |
+| :--- | :--- |
+| **UX en Bahía** | Priorizar interacción táctil simplificada y libre de tipeo extenso. |
+| **Telemetría IoT** | Presentar datos telemétricos como recomendación con validación del técnico. |
+| **Resiliencia Técnica** | Implementar base de datos local y sincronización asíncrona Offline-First. |
+| **Blindaje Legal** | Captura fotográfica directa desde el móvil hacia la orden en la nube. |
 
 ### 2.2.3. Análisis de Entrevistas
