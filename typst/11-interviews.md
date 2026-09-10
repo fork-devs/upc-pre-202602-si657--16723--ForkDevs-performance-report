@@ -176,6 +176,73 @@ Sobre conectividad, confirmó que las zonas cerradas o fosos del taller tienen c
 )
 ```
 
+#### 2.2.2.2. Entrevista 2 — Roberto García Sánchez (Segmento 1: Personal de Gestión y Propietarios del Taller)
+
+```{=typst}
+#v(0.4em)
+#table(
+  columns: (200pt, 1fr),
+  align: (center + horizon, left + horizon),
+  table.header([*Evidencia Audiovisual*], [*Ficha Técnica de Registro*]),
+  [
+    #block(
+      width: 100%,
+      height: 110pt,
+      fill: rgb("#f8fafc"),
+      stroke: 0.5pt + rgb("#cbd5e1"),
+      radius: 4pt,
+      align(center + horizon)[
+        #text(size: 9pt, weight: "bold", fill: rgb("#475569"))[Evidencia Fotográfica] \
+        #v(4pt)
+        #text(size: 8pt, style: "italic", fill: rgb("#94a3b8"))[(Imagen pendiente de carga)]
+      ]
+    )
+    #v(3pt)
+    #text(size: 8.5pt, style: "italic", fill: rgb("#64748b"))[Entrevista 2: Roberto García Sánchez]
+  ],
+  [
+    #set text(size: 9.5pt)
+    #grid(
+      columns: (100pt, 1fr),
+      row-gutter: 0.65em,
+      [*Nombres:*], [Roberto García Sánchez],
+      [*Segmento Objetivo:*], [Segmento 1: Personal de Gestión y Propietarios (Decisores B2B)],
+      [*Cargo / Puesto:*], [Encargado de Mantenimiento y Gestión],
+      [*Tipo de Taller:*], [Taller mecánico independiente (MYPE / Pequeña Empresa)],
+      [*Personal a Cargo:*], [2 técnicos mecánicos especializados],
+      [*Entrevistador:*], [Barrenechea Bustamante, Rafael Andre],
+      [*Fecha:*], [07/09/2026],
+      [*Tiempo / Video:*], [Pendiente de registro audiovisual]
+    )
+  ]
+)
+```
+
+**Resumen de la Entrevista**
+
+Roberto García Sánchez, encargado de mantenimiento en un taller mecánico clasificado como pequeña empresa (MYPE), coordina a dos trabajadores técnicos especializados en áreas como mecánica de motor, inyección, alineamiento, electricidad, frenos, chasis y planchado/pintura. Destaca que la gestión interna del negocio se realiza de forma totalmente manual mediante anotaciones en cuadernos físicos, donde se registran y controlan las tareas según los horarios de los operarios, las compras de repuestos (como chips, bujías o cables) y el inventario disponible en depósito.
+
+El flujo operativo inicia con el escaneo del computador del vehículo para detectar la falla técnica exacta y derivar el automóvil al área correspondiente. Posteriormente, acuerda con el cliente el tipo de repuesto a utilizar evaluando tres gamas de calidad (baja, intermedia y máxima) con su respectivo presupuesto. La disponibilidad de repuestos condiciona directamente los tiempos de entrega: si la pieza está en stock en depósito la reparación es inmediata, pero si debe solicitarse al proveedor el proceso puede demorar de uno a dos días hábiles. Para evitar confusiones en pedidos y costos, el personal fotografía la pieza extraída y la envía digitalmente al proveedor.
+
+En el ámbito tributario y contable, el área pertinente emite boletas de venta para clientes comunes y facturas electrónicas con el 18% de IGV cuando son solicitadas por empresas, registrando las compras y ventas correspondientes. Respecto al alcance del servicio, precisa que los siniestros mayores derivados de choques o volcaduras extremas no forman parte del mantenimiento ordinario, sino que se derivan al área de planchado y mecánica para reconstrucción o desarme total.
+
+Finalmente, aunque la interacción con los clientes sigue siendo predominantemente presencial debido a que prefieren inspeccionar las fallas personalmente al dejar el coche, el taller adopta como apoyo digital el envío de fotos o videollamadas para mostrar repuestos dañados. Roberto considera que cualquier inversión o presupuesto tecnológico debe integrarse de forma natural dentro de los costos de mantenimiento para mejorar la experiencia del cliente y la rentabilidad del taller.
+
+**Conclusiones Clave de la Entrevista**
+
+```{=typst}
+#v(0.4em)
+#table(
+  columns: (140pt, 1fr),
+  align: (left + horizon, left + horizon),
+  table.header([*Aspecto Clave*], [*Lección Aprendida para la Arquitectura de DriveOS*]),
+  [*Digitalización MRO*], [Sustituir cuadernos físicos por control digital de órdenes, agendas e inventario.],
+  [*Catálogo por Gamas*], [Implementar presupuestación de repuestos por gamas de calidad (baja, media, alta).],
+  [*Gestión Logística*], [Integrar envío de fotos de piezas dañadas directamente a proveedores desde la app.],
+  [*Facturación SUNAT*], [Soporte nativo para emisión inmediata de boletas y facturas electrónicas con IGV.]
+)
+```
+
 ### 2.2.3. Análisis de Entrevistas
 
 ```{=typst}
