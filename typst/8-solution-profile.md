@@ -185,8 +185,15 @@ Creemos que lograremos que más del 85% de los administradores y técnicos utili
 
 #### 1.2.3.4. Lean UX Canvas
 
-![Matriz del Lean UX Canvas para el Ecosistema Fork-Devs Workshop](assets/lean-ux/Lean-ux-cnava.jpg)
+```{=typst}
+#v(0.5em)
+#align(center)[
+  #image("assets/lean-ux/Lean-ux-cnava.jpg", width: 90%)
+]
+```
 
 *Enlace al tablero interactivo:* [Ver en Miro](https://miro.com/welcomeonboard/ZEZJcWF2dElmbVAwcG1VV2JxUEc2RHpsSkxHL25uNE9RcFBVaTdxekxqNTlxK2xmczRXTDVXTzNvS2NDMXdKUkRjQmxNMDZhUmpvQlZ0cEllS21yMHZZMDFnbHRlL0pwSHhNR2l0WmhaL0ZNNytYQzhyb0dIWkpQaFN5WkNaMkNzVXVvMm53MW9OWFg5bkJoVXZxdFhRPT0hdjE=?share_link_id=454241249260)
 
-\newpage
+```{=typst}
+#pagebreak()
+```
