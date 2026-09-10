@@ -27,7 +27,7 @@
 
 #set text(
   font: ("Liberation Sans", "DejaVu Sans", "Roboto"),
-  size: 11pt,
+  size: 10pt,
   lang: "es",
   region: "PE",
   fill: rgb("#1e293b")
