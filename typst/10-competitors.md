@@ -231,4 +231,12 @@ En esta sección se identifican, analizan y comparan las principales soluciones 
   [*Trayectoria de 15+ años y robustez*: Llevan desde 2008 en el mercado, con certificación ISO 27001 de seguridad y clientes enterprise (cadenas de 20 - 50 sucursales). Su sistema es extremadamente estable y seguro, lo que da confianza a grandes inversionistas. Nadie los vence en *control multi-sucursal*.],
   [*Son lentos, caros y nosotros ágiles, baratos y predictivos*: Su implementación toma 2 - 4 semanas y cuesta €500 - €1.500, algo impensable para un taller independiente peruano. Además, *no hacen diagnóstico técnico* (solo agenda, factura y controla stock) y *no tienen SUNAT*. *Nuestra oportunidad:* *DriveOS* se implementa en minutos, cuesta 5 - 10 veces menos y ofrece diagnóstico predictivo con OBD2. Les ganamos en *agilidad, precio y tecnología de diagnóstico* para el 90% del mercado (talleres independientes) que ellos ignoran.]
 )
+
+#set page(
+  paper: "a4",
+  flipped: false,
+  margin: (x: 2.5cm, top: 2.8cm, bottom: 2.5cm)
+)
+#set text(size: 10pt)
+#set par(leading: 0.7em, spacing: 1.2em)
 ```
