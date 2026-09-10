@@ -1,8 +1,8 @@
 ```{=typst}
 #outline(
-  title: [Tabla de Contenidos],
+  title: [Contenido],
   indent: 1.5em,
-  depth: 3
+  depth: 4
 )
 #pagebreak()
 ```
